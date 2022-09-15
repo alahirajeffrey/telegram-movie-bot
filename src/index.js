@@ -22,12 +22,13 @@ bot.onText(/\/movie (.+)/,(message, match)=>{
 
                 //send movie info to user
                 bot.sendPhoto(chatId, res.Poster, {caption: 
-                    'Result: \nTitle: ' + res.Title + 
-                    '\nRated: ' + res.Rated + 
-                    '\nReleased: ' + res.Released + 
-                    '\nGenre: ' + res.Genre +
-                    '\nPlot: ' + res.Plot +
-                    '\nRatings: ' + res.Ratings})
+                    'Result: \n\nTitle: ' + res.Title + 
+                    '\n\nRated: ' + res.Rated + 
+                    '\n\nReleased: ' + res.Released + 
+                    '\n\nGenre: ' + res.Genre +
+                    '\n\nPlot: ' + res.Plot +
+                    '\n\nImdbRating: ' + res.imdbRating + 
+                    '\n\nImdbVotes: ' + res.imdbVotes})
             })            
         }
     })
