@@ -1,5 +1,5 @@
 {
-  "name": "telegram-movie-bot",
+  "name": "movie-bot",
   "version": "1.0.0",
   "description": "a telegram bot with nodejs",
   "main": "index.js",
